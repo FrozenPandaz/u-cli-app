@@ -6,8 +6,11 @@
     "baseUrl": "",
     "types": []
   },
-  "exclude": [
-    "test.ts",
-    "**/*.spec.ts"
+  "angularCompilerOptions": {
+    "entryModule": "app/app.module#AppModule"
+  },
+  "files": [
+    "app/app.module.ts",
+    "main.ts"
   ]
 }
